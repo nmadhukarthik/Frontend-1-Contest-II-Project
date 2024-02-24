@@ -170,7 +170,7 @@ nav
 {
     width: 450px;
     height: 300px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     overflow-x: scroll;
 }
 #carouselImage>img
