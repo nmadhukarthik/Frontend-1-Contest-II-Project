@@ -1,0 +1,320 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+nav
+{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+
+#links>a
+{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+
+#socialLinks
+{
+    gap: 20px;
+}
+
+
+#textWithBgImg
+{
+    height: 400px;
+    width: 100vw;
+}
+
+#imageBgDiv
+{
+   
+    height: 400px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X05ktVGgkF7l99DPltM4oUNF8FSxQyV2vB5SGqU26GuozjjNABvtX0to0ycVrDl66BJhfK2bBN976yWPNrEX8spcX99BRS8LECRGbNjHuZbWQr~EBpRlT-4d8NVybi0ImKiH4dCPOO2Pb8xjJOvazsNFEZKwjyZWsid2~X16Ypl~kD7IW6rUsOP1-yTsvqRCKCwQt8ssC7sOtU4c49pAh~T49a3TBJkqy1CXvxW2mzhd4zWnF72bFiBLYVD47hj15je5REEVen25-0PetmUY3cQNspRCO7bobsZodVjnUvgj8pmSxOjX18841WJDpCPU3774NKwvzRA-wKJr7d8Qeg__');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+#bgimageText
+{
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 6%;
+
+}
+
+#bgimageText>h3
+{
+    background-color: transparent;
+}
+
+#bgimageText>hr
+{
+    color: red;
+    height: 5px;
+}
+
+#bgimageText>p
+{
+    background-color: transparent;
+}
+
+#aboutUsHeading
+{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#aboutUsHeading>hr
+{
+    color: red;
+    height: 5px;
+}
+
+
+#paraDiv
+{
+    width: 40%;
+    height: 300px;
+    background-color: transparent;
+    
+}
+
+
+#imgDiv>img
+{
+    width: 500px;
+    height: 300px;
+}
+
+#paraDiv>hr
+{
+    color: red;
+    height: 5px;
+}
+
+#menuHeading>hr
+{
+    color: red;
+    height: 5px;
+}
+
+#menuHeading
+{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#menuBody
+{
+    text-align: justify;
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+}
+
+#cardImage>img
+{
+    width: 250px;
+    height: 200px;
+}
+
+#cardDetails
+{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+}
+
+
+#cardDetails>h4
+{
+    color: yellow;
+}
+
+#cardDetails>p
+{
+    line-height: 30px;
+}
+
+#carouselHeading
+{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#carouselHeading>hr
+{   
+    color: red;
+    height: 5px;
+}
+
+
+#carouselImage
+{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+#carouselImage>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#galleryHeading
+{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#galleryHeading>hr
+{   
+    color: red;
+    height: 5px;
+}
+
+
+#gridContainer
+{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(5,160px);
+}
+
+#gridItem1
+{
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+#gridItem1>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#gridItem2
+{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+#gridItem2>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#gridItem3
+{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+#gridItem3>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#gridItem4
+{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+#gridItem4>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#gridItem5
+{
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+#gridItem5>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#gridItem6
+{
+    grid-row: 2/4;
+    grid-column: 5/6;
+}
+#gridItem6>img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#findUsHeading>hr
+{
+    color: red;
+    height: 5px;
+}
+
+#findUsHeading
+{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#findUsBodyAndContact
+{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+
+#findUsImg>img
+{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+#footerImg
+{
+    padding: 10px;
+}
+
+#footerImg>img
+{
+    width: 100px;
+    height: 100px;
+
+}
+
+#footerDetails
+{
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+}
