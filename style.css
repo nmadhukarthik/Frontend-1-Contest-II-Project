@@ -35,7 +35,6 @@ nav
 
 #imageBgDiv
 {
-   
     height: 400px;
     background-image: url('https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X05ktVGgkF7l99DPltM4oUNF8FSxQyV2vB5SGqU26GuozjjNABvtX0to0ycVrDl66BJhfK2bBN976yWPNrEX8spcX99BRS8LECRGbNjHuZbWQr~EBpRlT-4d8NVybi0ImKiH4dCPOO2Pb8xjJOvazsNFEZKwjyZWsid2~X16Ypl~kD7IW6rUsOP1-yTsvqRCKCwQt8ssC7sOtU4c49pAh~T49a3TBJkqy1CXvxW2mzhd4zWnF72bFiBLYVD47hj15je5REEVen25-0PetmUY3cQNspRCO7bobsZodVjnUvgj8pmSxOjX18841WJDpCPU3774NKwvzRA-wKJr7d8Qeg__');
     background-repeat: no-repeat;
@@ -49,7 +48,7 @@ nav
     height: 500px;
     background-color: transparent;
     position: absolute;
-    top: 90px;
+    top: 110px;
     left: 6%;
 
 }
@@ -317,4 +316,41 @@ nav
     width: 400px;
     height: 100px;
     padding: 15px;
+}
+
+
+@media screen and (max-width: 576px)
+{
+    #navBar
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #links
+    {
+        font-size: 11px;
+    }
+
+    #AboutUsDiv, #findUsbody
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #paraDiv, #imgDiv
+    {
+        width: 400px;
+    }
+
+    #menuBody
+    {
+        width: 450px;
+    }
+
+    #gridContainer
+    {
+        width: 800px;
+        height: 300px;
+    }
 }
