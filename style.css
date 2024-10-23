@@ -5,6 +5,7 @@
     color: white;
 }
 
+
 nav
 {
     position: sticky;
@@ -30,13 +31,12 @@ nav
 #textWithBgImg
 {
     height: 400px;
-    width: 100vw;
 }
 
 #imageBgDiv
 {
-    height: 400px;
-    background-image: url('https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X05ktVGgkF7l99DPltM4oUNF8FSxQyV2vB5SGqU26GuozjjNABvtX0to0ycVrDl66BJhfK2bBN976yWPNrEX8spcX99BRS8LECRGbNjHuZbWQr~EBpRlT-4d8NVybi0ImKiH4dCPOO2Pb8xjJOvazsNFEZKwjyZWsid2~X16Ypl~kD7IW6rUsOP1-yTsvqRCKCwQt8ssC7sOtU4c49pAh~T49a3TBJkqy1CXvxW2mzhd4zWnF72bFiBLYVD47hj15je5REEVen25-0PetmUY3cQNspRCO7bobsZodVjnUvgj8pmSxOjX18841WJDpCPU3774NKwvzRA-wKJr7d8Qeg__');
+    height: 100%;
+    background-image: url('https://th.bing.com/th/id/OIP.bni70C1c-t28z-0-1I4SJQHaE7?w=626&h=417&rs=1&pid=ImgDetMain');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
@@ -50,12 +50,14 @@ nav
     position: absolute;
     top: 110px;
     left: 6%;
+    
 
 }
 
 #bgimageText>h3
 {
     background-color: transparent;
+   
 }
 
 #bgimageText>hr
@@ -67,6 +69,7 @@ nav
 #bgimageText>p
 {
     background-color: transparent;
+    color: black;
 }
 
 #aboutUsHeading
@@ -321,6 +324,15 @@ nav
 
 @media screen and (max-width: 576px)
 {
+
+    /*Screen size break-points
+    480
+    992
+    768
+    1200
+    1200+*/
+
+
     #navBar
     {
         display: flex;
